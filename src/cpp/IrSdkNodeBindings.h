@@ -4,6 +4,7 @@
 #include <nan.h>
 
 using namespace v8;
+// using node::AtExit;
 
 namespace NodeIrSdk {
 
@@ -36,7 +37,7 @@ namespace NodeIrSdk {
   {
     irsdk.startup();
 
-    node::AtExit(cleanUp);
+    // node::AtExit(cleanUp);
 
     NAN_EXPORT(target, start);
     NAN_EXPORT(target, shutdown);
