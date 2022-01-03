@@ -1,4 +1,6 @@
-# node-irsdk
+# node-irsdk-updated
+
+# This is a reupload of [this repo](https://github.com/apihlaja/node-irsdk) which looks abandoned. I've applied changes from PR 93 to make it build
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ukyuuq9004wy9h5b/branch/master?svg=true)](https://ci.appveyor.com/project/apihlaja/node-irsdk/branch/master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/apihlaja/node-irsdk.svg)](https://greenkeeper.io/)
